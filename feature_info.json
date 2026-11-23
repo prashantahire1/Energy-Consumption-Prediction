@@ -1,0 +1,66 @@
+{
+    "columns": [
+        "Temperature",
+        "Humidity",
+        "SquareFootage",
+        "Occupancy",
+        "HVACUsage",
+        "LightingUsage",
+        "RenewableEnergy",
+        "DayOfWeek",
+        "Holiday",
+        "Hour",
+        "Month"
+    ],
+    "numeric": [
+        "Temperature",
+        "Humidity",
+        "SquareFootage",
+        "Occupancy",
+        "RenewableEnergy",
+        "Hour",
+        "Month"
+    ],
+    "categorical": [
+        "HVACUsage",
+        "LightingUsage",
+        "DayOfWeek",
+        "Holiday"
+    ],
+    "defaults": {
+        "Temperature": 24.751636889884217,
+        "Humidity": 45.97211619015158,
+        "SquareFootage": 1507.967426257272,
+        "Occupancy": 5.0,
+        "RenewableEnergy": 15.072295633046846,
+        "Hour": 11.0,
+        "Month": 1.0,
+        "HVACUsage": "Off",
+        "LightingUsage": "Off",
+        "DayOfWeek": "Friday",
+        "Holiday": "No"
+    },
+    "categories": {
+        "HVACUsage": [
+            "On",
+            "Off"
+        ],
+        "LightingUsage": [
+            "Off",
+            "On"
+        ],
+        "DayOfWeek": [
+            "Monday",
+            "Saturday",
+            "Sunday",
+            "Wednesday",
+            "Friday",
+            "Thursday",
+            "Tuesday"
+        ],
+        "Holiday": [
+            "No",
+            "Yes"
+        ]
+    }
+}
